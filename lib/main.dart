@@ -1,18 +1,10 @@
+import 'package:covid/ui/home/HomePage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(new MaterialApp(
     title: "COVID19",
-    home: Container(
-      child: new Center(
-        child: new Text(
-          "COVID 19",
-          style: TextStyle(
-              fontFamily: 'Poppins',
-              fontWeight: FontWeight.w600,
-              fontSize: 36.0),
-        ),
-      ),
-    ),
+    home: HomePage(),
+    debugShowCheckedModeBanner: false,
   ));
 }
